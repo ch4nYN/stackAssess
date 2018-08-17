@@ -1,0 +1,34 @@
+body {
+  font-family: 'Source Sans Pro'
+}
+/* graph section */
+.outer {
+  height: 200px;
+}
+.retail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px
+}
+.wholesale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000px
+}
+
+/* table section */
+table {
+  border: 1px solid #ddd;
+  text-align: center;
+}
+table {
+  border-collapse: collapse
+}
+th, td {
+  padding: 15px;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
