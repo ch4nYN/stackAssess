@@ -38,7 +38,7 @@ class App extends Component {
     return(
       <div>
         <div className="outer">
-          <p>Jan 2016 - March 2016</p>
+          <p>SHARK NINJA: Jan 2016 - March 2016</p>
           <p style={{marginTop:'-10px', color:'lightblue'}}>retail sales</p>
           <p style={{marginTop:'-10px', color: 'grey'}}>wholesale sales</p>
     
