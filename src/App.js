@@ -4,12 +4,9 @@ import { Sparklines, SparklinesCurve} from 'react-sparklines';
 import NumberFormat from 'react-number-format';
 
 var datas = require('./data.json');
-<NumberFormat value={2456981} displayType={'text'} thousandSeparator={true} prefix={'$'} />
-
 
 class App extends Component {
   renderChart(datas) {
-    console.log(datas);
     return datas.map(data => {
       return (
         <tr key={data.weekEnding}>
